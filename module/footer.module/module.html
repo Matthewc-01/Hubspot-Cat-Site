@@ -1,0 +1,27 @@
+<footer>
+        <div class="wrapper">
+            <ul>
+                <li class="footerCol">
+                  {% inline_rich_text field="richtext_field" value="{{ module.richtext_field }}" %}
+              </li>
+            </ul>
+           
+            <ul>
+                <li class="footerCol">
+                  {% set loadingAttr = module.logo_field.loading != 'disabled' ? '{{ module.logo_field.loading }}' : '' %}
+{% logo
+	override_inherited_src="{{ module.logo_field.override_inherited_src }}"
+	src="{{ module.logo_field.src }}"
+	alt="{{ module.logo_field.alt }}"
+	width="{{ module.logo_field.width }}"
+	height="{{ module.logo_field.height }}"
+	loading="{{ loadingAttr }}"
+	suppress_company_name="{{ module.logo_field.suppress_company_name }}"
+%}
+                  <br><br>
+                  &copy; All rights reserve 2022
+                </li>
+                
+            </ul>
+        </div>
+    </footer>

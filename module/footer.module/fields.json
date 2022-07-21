@@ -1,0 +1,33 @@
+[ {
+  "id" : "718470bf-52c0-178b-1e8d-9b7c2acb1dba",
+  "name" : "richtext_field",
+  "display_width" : null,
+  "label" : "Rich text",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</span>"
+}, {
+  "id" : "54d43582-4a9d-c1fd-f5d8-e9682717a9fe",
+  "name" : "logo_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : true,
+  "show_loading" : false,
+  "type" : "logo",
+  "default" : {
+    "override_inherited_src" : false,
+    "src" : null,
+    "alt" : null
+  }
+}, {
+  "id" : "411c278f-9bdb-caaa-077e-9c185acd6e53",
+  "name" : "simplemenu_field",
+  "display_width" : null,
+  "label" : "Simple menu",
+  "required" : false,
+  "locked" : true,
+  "type" : "simplemenu",
+  "default" : [ ]
+} ]

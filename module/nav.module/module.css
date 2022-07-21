@@ -1,0 +1,74 @@
+.wrapper{
+    font-family:Century Gothic;
+    width:100%;
+    max-width:1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  div.logo{
+    float:left;
+  }
+
+nav{
+  float:right;
+}
+
+nav h2{
+    text-indent: -10000px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+float:left;
+ list-style-type: none;
+ margin: 10px 20px;
+}
+
+nav li a{
+    text-transform: uppercase;
+    color:black;
+    font-size: 18px;
+  text-decoration:none;
+  font-weight: bold;
+}
+.wrapper:after{
+  	display: block;
+	content: "";
+	clear: both;
+}
+
+@media screen and (max-width: 570px){
+  .wrapper{
+  padding:0;
+    margin:0;
+  }
+    div.logo {
+      margin: 0 auto;
+      width:100%;  
+     text-align:center;
+      padding:0;
+    }
+  nav{
+    margin: 0 auto;
+      width:100%;  
+     text-align:center;
+    padding:10px 0;
+  }
+  nav ul{
+     text-align:center;
+    padding:0;
+  }
+  nav li{
+     text-align:center;
+   width:20%;
+ margin: 10px 2%;
+    padding:0;
+}
+  nav li a{
+  font-size:14pt;
+    padding:0;
+    margin: 0;
+  }
+}
+

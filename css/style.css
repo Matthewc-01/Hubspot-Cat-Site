@@ -1,0 +1,24 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+body{
+  background-color:white;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+  padding:0;
+}
+.wrapper{
+    font-family:Century Gothic;
+    width:100%;
+    max-width:1400px;
+    padding: 0;
+    margin: 0 ;
+  }

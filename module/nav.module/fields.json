@@ -1,0 +1,64 @@
+[ {
+  "id" : "47657181-372d-d5ce-ed9d-8270e1daea6f",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : true,
+  "children" : [ {
+    "id" : "8ddac41d-127b-b035-d390-685054050a06",
+    "name" : "color_field",
+    "display_width" : null,
+    "label" : "Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : null,
+      "opacity" : null
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "color_field" : {
+      "color" : null,
+      "opacity" : null
+    }
+  }
+}, {
+  "id" : "9bfb030b-a040-77b9-c758-22f4b2f843c4",
+  "name" : "menu_field",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : true,
+  "visibility" : {
+    "controlling_field" : "8ddac41d-127b-b035-d390-685054050a06",
+    "controlling_value_regex" : null,
+    "operator" : "NOT_EMPTY",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "placeholder" : "Menu",
+  "type" : "menu",
+  "default" : 79398753288
+}, {
+  "id" : "22744a91-8650-e97c-64cf-e26c29feca1d",
+  "name" : "logo_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : true,
+  "show_loading" : false,
+  "type" : "logo",
+  "default" : {
+    "override_inherited_src" : true,
+    "src" : "https://22320015.fs1.hubspotusercontent-na1.net/hubfs/22320015/happy.png",
+    "alt" : "happy",
+    "suppress_company_name" : true,
+    "width" : 100,
+    "height" : 100
+  }
+} ]
